@@ -19,8 +19,76 @@ html {
     overflow-y: scroll;
     text-rendering: optimizeLegibility;
 }
+
+body {
+    max-width: 1260px;
+}
+
 .clearfix::after {
     content: " ";
     display: table;
     clear: both;
+}
+
+.topline {
+    background-color: #9B51E0;
+    width: 100%;
+    height: 5px;
+}
+
+.site {
+    max-width: 76.19%;
+    margin-left: 149px;
+}
+
+.header {
+    width: 100%;
+    position: relative;
+}
+
+.header__square {
+    width: 50px;
+    height: 48px;
+    border: solid 3px #FFC740;
+    position: absolute;
+    margin-top: 30px;
+    float: left;
+}
+
+.header__text {
+    margin: 42px 0 0 25px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+    color: #000000;
+    float: left;
+}
+
+.header__search {
+    margin: 40px 0 0 760px;
+    position: absolute;
+    float: right;
+}
+
+.header__search-input {
+    width: 155px;
+    height: 33px;
+    border: solid 1px #6D3D99;
+    border-right: 0px;
+    margin: 0;
+}
+
+.header__search-button {
+    width: 42px;
+    height: 33px;
+    border: solid 1px #6D3D99;
+    border-left: 0px;
+    background-color: #9B51E0;
+    color: #FFFFFF;
+    outline: none;
+    margin: 0;
+}
+
+.navbar {
+
 }
