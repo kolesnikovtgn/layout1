@@ -38,7 +38,7 @@ body {
 
 .site {
     max-width: 76.19%;
-    margin-left: 149px;
+    margin-left: 11.825%;
 }
 
 .header {
@@ -51,12 +51,12 @@ body {
     height: 48px;
     border: solid 3px #FFC740;
     position: absolute;
-    margin-top: 30px;
+    margin-top: 3.125%;
     float: left;
 }
 
 .header__text {
-    margin: 42px 0 0 25px;
+    margin: 4.375% 0 0 2.604%;
     font-size: 2.4rem;
     font-weight: 700;
     line-height: 2.8rem;
@@ -65,13 +65,14 @@ body {
 }
 
 .header__search {
-    margin: 40px 0 0 760px;
+    margin: 4.166% 0 0 79.166%;
+    max-width: 20.9375%;
     position: absolute;
     float: right;
 }
 
 .header__search-input {
-    width: 155px;
+    width: 78.606%;
     height: 33px;
     border: solid 1px #6D3D99;
     border-right: 0px;
@@ -90,5 +91,75 @@ body {
 }
 
 .navbar {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #050505;
+    max-width: 960px;
+    margin-top: 0;
+}
 
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    width: 12.5%;
+    margin-top: 2.083%;
+    float: left;
+}
+
+.navbar li:last-child {
+    width: 12.4%;
+}
+.navbar li a {
+    display: block;
+    color: #050505;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #FFC740;
+    color: #FFFFFF;
+}
+
+.main__image {
+    background: url(../images/Mountains-and-hills-julian-alps.png) no-repeat center bottom/cover ;
+    width: 100%;
+}
+
+.image-article {
+    font-size: 6.4rem;
+    line-height: 7.4rem;
+    color: #FFC740;
+    text-align: left;
+    width: 53.02%;
+    height: 45.4545%;
+    margin: 2.083% 0 0 4.583%;
+}
+
+.image-text {
+    width: 46.979%;
+    margin: 1.777% 0 0 4.583%;
+}
+
+.image-text p {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.image-text button {
+    width: 27.716%;
+    height: 34px;
+    border: solid 1px #6D3D99;
+    background-color: #6D3D99;
+    color: #FFFFFF;
+    outline: none;
+    margin: 1.111% 0 4.444% 0;
 }
