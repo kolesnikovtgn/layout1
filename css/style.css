@@ -62,7 +62,10 @@ body {
     font-weight: 700;
     line-height: 2.8rem;
     color: #000000;
+    background-color: #FFFFFF;
     float: left;
+    position: absolute;
+    z-index: 1;
 }
 
 .header__search {
@@ -96,7 +99,7 @@ body {
     line-height: 1.6rem;
     color: #050505;
     max-width: 960px;
-    margin-top: 0;
+    margin-top: 74px;
 }
 
 .navbar ul {
@@ -187,6 +190,7 @@ body {
 
 .article1__headline {
     font-size: 1.4rem;
+    font-weight: 700;
     line-height: 1.6rem;
     color: #000000;
     margin-left: 4px;
@@ -231,6 +235,7 @@ body {
 .article1__text p {
     font-size: 1.2rem;
     line-height: 1.4rem;
+    text-align: justify;
 }
 
 .article1__footer {
@@ -240,6 +245,7 @@ body {
 .article1__footer span {
     font-size: 1.2rem;
     line-height: 1.4rem;
+    text-decoration: underline;
 }
 
 .article2 {
@@ -256,6 +262,7 @@ body {
 
 .article2__headline {
     font-size: 1.4rem;
+    font-weight: 700;
     line-height: 1.6rem;
     color: #000000;
     margin-left: 5px;
@@ -300,6 +307,7 @@ body {
 .article2__text p {
     font-size: 1.2rem;
     line-height: 1.4rem;
+    text-align: justify;
 }
 
 .article2__footer {
@@ -325,6 +333,7 @@ body {
 
 .article3__headline {
     font-size: 1.4rem;
+    font-weight: 700;
     line-height: 1.6rem;
     color: #000000;
     margin-left: 4px;
@@ -369,6 +378,7 @@ body {
 .article3__text p {
     font-size: 1.2rem;
     line-height: 1.4rem;
+    text-align: justify;
 }
 
 .article3__footer {
@@ -378,6 +388,7 @@ body {
 .article3__footer span {
     font-size: 1.2rem;
     line-height: 1.4rem;
+    text-decoration: underline;
 }
 
 .article4 {
@@ -394,6 +405,7 @@ body {
 
 .article4__headline {
     font-size: 1.4rem;
+    font-weight: 700;
     line-height: 1.6rem;
     color: #000000;
     margin-left: 5px;
@@ -438,6 +450,7 @@ body {
 .article4__text p {
     font-size: 1.2rem;
     line-height: 1.4rem;
+    text-align: justify;
 }
 
 .article4__footer {
@@ -464,6 +477,7 @@ body {
 
 .article5__headline {
     font-size: 1.4rem;
+    font-weight: 700;
     line-height: 1.6rem;
     color: #000000;
     margin-left: 5px;
@@ -499,6 +513,7 @@ body {
 .article5__footer span {
     font-size: 1.2rem;
     line-height: 1.4rem;
+    text-decoration: underline;
 }
 
 .article6 {
@@ -515,6 +530,7 @@ body {
 
 .article6__headline {
     font-size: 1.4rem;
+    font-weight: 700;
     line-height: 1.6rem;
     color: #000000;
     margin-left: 5px;
@@ -592,6 +608,7 @@ body {
 
 .article7__headline {
     font-size: 1.4rem;
+    font-weight: 700;
     line-height: 1.6rem;
     color: #000000;
     margin-left: 5px;
@@ -627,6 +644,7 @@ body {
 .article7__footer span {
     font-size: 1.2rem;
     line-height: 1.4rem;
+    text-decoration: underline;
 }
 
 .footerline__square {
