@@ -131,10 +131,9 @@ body {
 .main__image {
     /*background: url(../images/Mountains-and-hills-julian-alps.png) no-repeat center bottom/cover ;*/
     /*width: 100%;*/
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5) ), url(../images/Mountains-and-hills-julian-alps.png);
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5) ), url(../images/Mountains-and-hills-julian-alps.png) no-repeat;
     background-position:center bottom;
     width: 100%;
-    display: table;
     margin-top: 15px;
 }
 
@@ -154,6 +153,7 @@ body {
 }
 
 .image-text p {
+    font-weight: 400;
     font-size: 1.4rem;
     line-height: 1.6rem;
     color: #FFFFFF;
